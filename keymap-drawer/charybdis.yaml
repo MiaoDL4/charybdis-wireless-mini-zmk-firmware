@@ -1,6 +1,6 @@
 layers:
   BASE:
-  - SEARCH
+  - ESCAPE
   - Q
   - W
   - E
@@ -11,36 +11,36 @@ layers:
   - I
   - O
   - P
-  - {t: GAME, h: toggle}
-  - {t: TAB, h: WINDOW}
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - BACK SPACE
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LEFT META}
-  - DEL
-  - SHELL
+  - J
+  - K
+  - L
+  - ;
+  - ENTER
+  - LEFT CONTROL
   - Z
-  - {t: X, h: MEH}
-  - {t: C, h: HYPER}
+  - X
+  - C
   - V
   - B
   - N
   - M
-  - {t: ',', h: HYPER}
-  - {t: ., h: MEH}
+  - {t: ',', h: (}
+  - {t: ., h: )}
   - /
-  - {t: PHOTOS, h: toggle}
-  - '&tdtb2'
+  - {t: GAME, h: toggle}
+  - ''
   - {t: BACK SPACE, h: NUM}
-  - {t: ESCAPE, h: NAV}
+  - {t: NUM, h: toggle}
   - {t: RETURN, h: MOUSE}
-  - {t: SPACE, h: SYM}
+  - SPACE
   NUM:
   - ''
   - ''
@@ -53,7 +53,7 @@ layers:
   - {t: '8', h: F8}
   - {t: '9', h: F9}
   - {t: '-', h: F10}
-  - ''
+  - BACK SPACE
   - TAB
   - ''
   - ''
@@ -81,8 +81,8 @@ layers:
   - ''
   - {type: held}
   - ''
-  - '0'
   - ''
+  - '0'
   NAV:
   - ''
   - ''
@@ -122,7 +122,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   GAME:
   - '1'
   - TAB
@@ -209,48 +209,6 @@ layers:
   - LEFT ALT
   - ''
   - ''
-  PHOTOS:
-  - {t: ▽, type: trans}
-  - TAG Z
-  - TAG E
-  - TAG A
-  - TAG S
-  - TAG B
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - FIT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - LCTRL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - SHRED
-  - SHOW TAGS
-  - REJECT
-  - PENDING
-  - ACCEPT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BASE, h: toggle}
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   EXTRAS:
   - SLEEP
   - ''
@@ -294,131 +252,47 @@ layers:
   - ''
   - ''
   MOUSE:
-  - ''
-  - '&msc MOVE_LEFT'
-  - '&msc MOVE_UP'
-  - '&mmv MOVE_UP'
-  - '&msc MOVE_DOWN'
-  - '&msc MOVE_RIGHT'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - TAB
-  - '&mkp MB4'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mkp MB5'
-  - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LEFT META
-  - ''
-  - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&tdtb2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - {t: RETURN, type: held}
-  - {t: SPACE, h: SYM}
-  SLOW:
-  - ''
-  - '&msc MOVE_LEFT'
-  - '&msc MOVE_UP'
-  - '&mmv MOVE_UP'
-  - '&msc MOVE_DOWN'
-  - '&msc MOVE_RIGHT'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - TAB
-  - '&mkp MB4'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mkp MB5'
-  - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LEFT META
-  - ''
-  - ''
-  - UNDO
-  - CUT
+  - {t: ▽, type: trans}
+  - {t: PASTE, type: held}
   - COPY
-  - PASTE
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&tdtb2'
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - RETURN
-  - {t: SPACE, h: SYM}
-  SCROLL:
-  - ''
-  - '&msc MOVE_LEFT'
-  - '&msc MOVE_UP'
-  - '&mmv MOVE_UP'
-  - '&msc MOVE_DOWN'
-  - '&msc MOVE_RIGHT'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - TAB
-  - '&mkp MB4'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mkp MB5'
-  - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LEFT META
-  - ''
-  - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&tdtb2'
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - RETURN
-  - {t: SPACE, h: SYM}
 combos:
 - p: [8, 9]
   k: DELETE
