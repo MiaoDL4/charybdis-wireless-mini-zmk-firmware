@@ -145,10 +145,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &none        &none  &none      &none      &none    &none        &none       &none  &none  &none  &none
-&none       &hm LC(C) A  &none  &none      &none      &none    &none        &none       &none  &none  &none  &none
-&none       &none        &none  &none      &none      &none    &none        &none       &none  &none  &none  &none
-                                &mkp LCLK  &mkp RCLK  &none    &kp K_PASTE  &kp K_COPY
+&trans  &trans  &trans  &trans     &trans     &trans    &trans       &trans      &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans       &trans      &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans       &trans      &trans  &trans  &trans  &trans
+                        &mkp LCLK  &mkp RCLK  &trans    &kp K_PASTE  &kp K_COPY
             >;
         };
     };
