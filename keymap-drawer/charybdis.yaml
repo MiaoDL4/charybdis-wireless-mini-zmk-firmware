@@ -13,21 +13,21 @@ layers:
   - P
   - L_BASE L_PHOTO L_GAME
   - {t: TAB, h: LCMD}
-  - {t: A, h: NAV}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
+  - J
+  - K
+  - L
   - {t: ;, h: LCMD}
   - DEL
   - SEARCH
   - Z
-  - {t: X, h: MEH}
-  - {t: C, h: HYPER}
+  - X
+  - C
   - V
   - B
   - N
@@ -39,8 +39,8 @@ layers:
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
-  - {t: RETURN, h: MOUSE}
-  - {t: SPACE, h: SYM}
+  - {t: SPACE, h: MOUSE}
+  - {t: RET, h: SYM}
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -97,7 +97,7 @@ layers:
   - PANE ▶
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -290,9 +290,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - L CLK
+  - R CLK
+  - M CLK
   - {t: RETURN, type: held}
   - {t: ▽, type: trans}
   SLOW:
