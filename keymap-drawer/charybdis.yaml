@@ -1,6 +1,6 @@
 layers:
   BASE:
-  - {t: BASE, h: toggle}
+  - {t: ESCAPE, h: BASE}
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_PHOTO L_GAME
+  - {t: BACK SPACE, h: SYM}
   - {t: TAB, h: NUM}
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - K
   - L
   - {t: ;, h: LCMD}
-  - DEL
-  - SEARCH
+  - {t: ENTER, h: PHOTOS}
+  - {t: LEFT SHIFT, h: SCROLL}
   - Z
   - X
   - C
@@ -35,12 +35,12 @@ layers:
   - {t: ',', h: Ctl+ C}
   - {t: ., h: Ctl+ V}
   - /
-  - DEV TOOLS
+  - RIGHT SHIFT
+  - LEFT SHIFT
   - BACK SPACE
-  - L CLK
-  - {t: BACK SPACE, h: SYM}
+  - {t: DEL, h: SYM}
   - {t: SPACE, h: MOUSE}
-  - {t: RET, h: SYM}
+  - Alt+ TAB
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - VSPLIT
+  - ''
   - LEFT
   - DOWN
   - UP
@@ -114,7 +114,7 @@ layers:
   - ''
   - ''
   - ''
-  - HSPLIT
+  - ''
   - HOME
   - PG DN
   - PG UP
@@ -137,7 +137,7 @@ layers:
   - $
   - ^
   - ''''
-  - ''
+  - {type: held}
   - ''
   - {t: '!', h: LCMD}
   - {t: (, h: LEFT ALT}
@@ -164,7 +164,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BASE, h: toggle, type: held}
+  - ''
   - ''
   - {t: ▽, type: trans}
   GAME: ['1', TAB, Q, W, E, R, '', '', '', '', '', '', '2', LCTRL, A, S, D, F, '', '', '', '', '', '', '3', LSHFT, Z, X, C, V, '', '', '', '', '', '', '', SPACE,
@@ -193,7 +193,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - SHRED
   - SHOW TAGS
   - REJECT
@@ -213,9 +213,9 @@ layers:
   - {t: ▽, type: trans}
   EXTRAS:
   - POWER
-  - SHRUG
-  - LGTM
-  - GIT COMMIT
+  - ''
+  - ''
+  - ''
   - ''
   - BRIGHTNESS INC
   - {t: BT, h: '0'}
@@ -225,9 +225,9 @@ layers:
   - OUT TOG
   - BT CLR
   - SLEEP
-  - SHIT SUDO
-  - PYTHON LOOP
-  - JS LOOP
+  - ''
+  - ''
+  - ''
   - ''
   - BRIGHTNESS DEC
   - ''
@@ -241,59 +241,59 @@ layers:
   - ''
   - ''
   - ''
-  - CLIP HIST
-  - NEW DIR
+  - ''
+  - ''
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
   - PRINT SCREEN
-  - ZMK Studio
+  - ''
   - ''
   - ''
   - ''
   - ''
   - ''
   MOUSE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - WHEEL L
-  - WHEEL D
-  - MOVE UP
-  - WHEEL U
-  - WHEEL R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - TAB
-  - BACK
-  - MOVE L
-  - MOVE D
-  - MOVE R
-  - FWD
-  - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LCMD
-  - ''
-  - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - M CLK
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - L CLK
-  - R CLK
-  - M CLK
-  - {t: RETURN, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}
@@ -362,7 +362,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -383,9 +383,13 @@ combos:
 - p: [17, 18]
   k: CAPS WORD
   l: [BASE]
-- p: [28, 37]
+- p: [36, 15]
   k: M CLK
-- p: [16, 37]
+- p: [16, 36]
   k: R CLK
-- p: [38, 39]
+- p: [24, 35]
   k: L_BASE L_EXTRA
+- p: [36, 14]
+  k: L CLK
+- p: [12, 23]
+  k: {t: GAME, h: toggle}
